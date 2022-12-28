@@ -1,0 +1,164 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-12-26T02:31:04.370Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3318838500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "smart.usa.hookstest.Hooks.getStart()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "User can login the application with valid credential and purchase the specific",
+        "description": "           mens jacket",
+        "id": "valid-user-able-to-purchase-the-men-jacket-from-ecommerce-web-site;user-can-login-the-application-with-valid-credential-and-purchase-the-specific;;2",
+        "after": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "smart.usa.hookstest.Hooks.getTearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3361649100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User already login the application and verify the login info in the landing page",
+            "match": {
+              "location": "smart.usa.stepdef.Stepdef.user_already_login_the_application_and_verify_the_login_info_in_the_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 8248425100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should be able to Jupiter All-Weather Trainer jacket from men module",
+            "match": {
+              "location": "smart.usa.stepdef.Stepdef.user_should_be_able_to_jupiter_all_weather_trainer_jacket_from_men_module()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 275700600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user verify the jacket name on the Jupiter All-Weather Trainer list",
+            "match": {
+              "location": "smart.usa.stepdef.Stepdef.user_verify_the_jacket_name_on_the_jupiter_all_weather_trainer_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635360800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should be able to select the \"M\" and \"Blue\" and \"1\" and click on the add to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"M\"",
+                  "offset": 34
+                },
+                {
+                  "val": "\"Blue\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"1\"",
+                  "offset": 53
+                }
+              ],
+              "location": "smart.usa.stepdef.Stepdef.user_should_be_able_to_select_the_and_and_and_click_on_the_add_to_cart(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchWindowException: no such window: target window already closed\nfrom unknown error: web view not found\n  (Session info: chrome\u003d108.0.5359.125)\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027DESKTOP-6GCOTSI\u0027, ip: \u0027192.168.0.147\u0027, os.name: \u0027Windows 11\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717.0.4.1\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 108.0.5359.71 (1e0e3868ee06..., userDataDir: C:\\Users\\muhan\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50187}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: f1fcf4ef972b3ff7d9e018b0afdc46e3\n*** Element info: {Using\u003dxpath, value\u003d(//*[text()\u003d\u0027Proceed to Checkout\u0027])[2]}\r\n\tat jdk.internal.reflect.GeneratedConstructorAccessor17.newInstance(Unknown Source)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy25.toString(Unknown Source)\r\n\tat java.base/java.lang.String.valueOf(String.java:4218)\r\n\tat java.base/java.lang.StringBuilder.append(StringBuilder.java:173)\r\n\tat org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:683)\r\n\tat java.base/java.lang.String.valueOf(String.java:4218)\r\n\tat java.base/java.lang.StringBuilder.append(StringBuilder.java:173)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:268)\r\n\tat smart.usa.genericCode.WaitHelper.getSeleniumWait(WaitHelper.java:13)\r\n\tat smart.usa.stepdef.Stepdef.user_able_to_click_on_the_cart_and_checkout(Stepdef.java:100)\r\n\tat ✽.user able to click on the cart and checkout(file:///C:/Users/muhan/eclipse-workspace/Smart_Career/./Features/shopping.feature:15)\r\n",
+              "duration": 27998901600,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "user able to click on the cart and checkout",
+            "match": {
+              "location": "smart.usa.stepdef.Stepdef.user_able_to_click_on_the_cart_and_checkout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user able to enter the shipping details and click on the next",
+            "match": {
+              "location": "smart.usa.stepdef.Stepdef.user_able_to_enter_the_shopping_details_and_click_on_the_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "user able to verify the shipping address and place the order",
+            "match": {
+              "location": "smart.usa.stepdef.Stepdef.user_able_to_verify_the_shipping_address_and_place_the_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User should be able to verify the order number and get text on the screen \"Thank you for your purchase!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Thank you for your purchase!\"",
+                  "offset": 74
+                }
+              ],
+              "location": "smart.usa.stepdef.Stepdef.user_should_be_able_to_verify_the_order_number_and_get_text_on_the_screen(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Sanity"
+          }
+        ]
+      }
+    ],
+    "name": "Valid user able to purchase the men jacket from eCommerce web site",
+    "description": "Description: \"online user can register luma eCommerce web site to purchase\"\n             \"return, deliver, exchange, clearence, sale etc \"",
+    "id": "valid-user-able-to-purchase-the-men-jacket-from-ecommerce-web-site",
+    "keyword": "Feature",
+    "uri": "file:Features/shopping.feature",
+    "tags": []
+  }
+]
